@@ -1,0 +1,25 @@
+{
+    "name": "ianlchapman/tube-status",
+    "description": "Status information for London Underground lines.",
+    "keywords": ["tube", "london underground", "tfl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Chapman"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "^2.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "IanLChapman\\TubeStatus\\": "src/"
+        }
+    }
+}
