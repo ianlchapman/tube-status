@@ -98,7 +98,7 @@ class Status
    * @param string $reason The reason for disruption
    * @return  self The status object
    */
-  public function setReason(string $reason): self
+  public function setReason(?string $reason): self
   {
     $this->reason = $reason;
     return $this;
@@ -118,7 +118,7 @@ class Status
    * @param string $category The disruption category
    * @return  self The status object
    */
-  public function setDisruptionCategory(string $category): self
+  public function setDisruptionCategory(?string $category): self
   {
     $this->disruptionCategory = $category;
     return $this;
@@ -138,7 +138,7 @@ class Status
    * @param string $description Human readable disruption description
    * @return  self The status object
    */
-  public function setDisruptionDescription(string $description): self
+  public function setDisruptionDescription(?string $description): self
   {
     $this->disruptionDescription = $description;
     return $this;
@@ -158,7 +158,7 @@ class Status
    * @param string $closureText The closure text
    * @return  self The status object
    */
-  public function setClosureText(string $closureText): self
+  public function setClosureText(?string $closureText): self
   {
     $this->closureText = $closureText;
     return $this;
@@ -179,6 +179,10 @@ class Status
    */
   public function setValidityPeriods(array $validityPeriods): self
   {
+    if(empty($validityPeriods)) {
+      $validityPeriods = null;
+    }
+    
     $this->validityPeriods = $validityPeriods;
     return $this;
   }

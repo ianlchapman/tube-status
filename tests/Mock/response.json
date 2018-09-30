@@ -1,0 +1,452 @@
+[
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "bakerloo",
+"name": "Bakerloo",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.257Z",
+"modified": "2018-09-19T15:38:50.257Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"statusSeverity": 10,
+"statusSeverityDescription": "Good Service",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": []
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "central",
+"name": "Central",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.25Z",
+"modified": "2018-09-19T15:38:50.25Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"statusSeverity": 10,
+"statusSeverityDescription": "Good Service",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": []
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Night",
+"uri": "/Line/Route?ids=Central&serviceTypes=Night"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "circle",
+"name": "Circle",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.257Z",
+"modified": "2018-09-19T15:38:50.257Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"lineId": "circle",
+"statusSeverity": 4,
+"statusSeverityDescription": "Planned Closure",
+"reason": "CIRCLE LINE: Saturday 29 and Sunday 30 September, no Circle line service throughout the line.",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": [
+{
+"$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+"fromDate": "2018-09-29T04:30:00Z",
+"toDate": "2018-10-01T01:29:00Z",
+"isNow": false
+}
+],
+"disruption": {
+"$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+"category": "PlannedWork",
+"categoryDescription": "PlannedWork",
+"description": "CIRCLE LINE: Saturday 29 and Sunday 30 September, no Circle line service throughout the line.",
+"created": "2018-07-30T09:01:00Z",
+"affectedRoutes": [],
+"affectedStops": [],
+"closureText": "plannedClosure"
+}
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "district",
+"name": "District",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.263Z",
+"modified": "2018-09-19T15:38:50.263Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"lineId": "district",
+"statusSeverity": 5,
+"statusSeverityDescription": "Part Closure",
+"reason": "DISTRICT LINE: Saturday 29 and Sunday 30 September, no service between High Street Kensington and Edgware Road.",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": [
+{
+"$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+"fromDate": "2018-09-29T04:30:00Z",
+"toDate": "2018-10-01T01:29:00Z",
+"isNow": false
+}
+],
+"disruption": {
+"$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+"category": "PlannedWork",
+"categoryDescription": "PlannedWork",
+"description": "DISTRICT LINE: Saturday 29 and Sunday 30 September, no service between High Street Kensington and Edgware Road.",
+"created": "2018-07-30T09:03:00Z",
+"affectedRoutes": [],
+"affectedStops": [],
+"closureText": "partClosure"
+}
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=District&serviceTypes=Regular"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "hammersmith-city",
+"name": "Hammersmith & City",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.257Z",
+"modified": "2018-09-19T15:38:50.257Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"lineId": "hammersmith-city",
+"statusSeverity": 5,
+"statusSeverityDescription": "Part Closure",
+"reason": "HAMMERSMITH & CITY LINE: Saturday 29 and Sunday 30 September, no service between Hammersmith and Moorgate. Please use alternative London Underground lines or local London Buses services.",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": [
+{
+"$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+"fromDate": "2018-09-29T04:30:00Z",
+"toDate": "2018-10-01T01:29:00Z",
+"isNow": false
+}
+],
+"disruption": {
+"$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+"category": "PlannedWork",
+"categoryDescription": "PlannedWork",
+"description": "HAMMERSMITH & CITY LINE: Saturday 29 and Sunday 30 September, no service between Hammersmith and Moorgate. Please use alternative London Underground lines or local London Buses services.",
+"created": "2018-07-30T09:02:00Z",
+"affectedRoutes": [],
+"affectedStops": [],
+"closureText": "partClosure"
+}
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "jubilee",
+"name": "Jubilee",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.247Z",
+"modified": "2018-09-19T15:38:50.247Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"statusSeverity": 10,
+"statusSeverityDescription": "Good Service",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": []
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Night",
+"uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "metropolitan",
+"name": "Metropolitan",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.247Z",
+"modified": "2018-09-19T15:38:50.247Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"lineId": "metropolitan",
+"statusSeverity": 5,
+"statusSeverityDescription": "Part Closure",
+"reason": "METROPOLITAN LINE: Saturday 29 and Sunday 30 September, no service between Harrow-on-the-Hill and Aldgate. Please use Jubilee line services between Wembley Park and Baker Street or Chiltern Railways services between Marylebone and Harrow-on-the-Hill. Replacement buses operate between Harrow-on-the-Hill and Wembley Park.",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": [
+{
+"$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+"fromDate": "2018-09-29T04:30:00Z",
+"toDate": "2018-10-01T01:29:00Z",
+"isNow": false
+}
+],
+"disruption": {
+"$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+"category": "PlannedWork",
+"categoryDescription": "PlannedWork",
+"description": "METROPOLITAN LINE: Saturday 29 and Sunday 30 September, no service between Harrow-on-the-Hill and Aldgate. Please use Jubilee line services between Wembley Park and Baker Street or Chiltern Railways services between Marylebone and Harrow-on-the-Hill. Replacement buses operate between Harrow-on-the-Hill and Wembley Park.",
+"additionalInfo": "Replacement buses operateHarrow-on-the-Hill - Northwick Park - Kenton (For Bakerloo line) - Preston Road - Wembley Park",
+"created": "2018-07-30T08:58:00Z",
+"affectedRoutes": [],
+"affectedStops": [],
+"closureText": "partClosure"
+}
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "northern",
+"name": "Northern",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.247Z",
+"modified": "2018-09-19T15:38:50.247Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"statusSeverity": 10,
+"statusSeverityDescription": "Good Service",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": []
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Night",
+"uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "piccadilly",
+"name": "Piccadilly",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.247Z",
+"modified": "2018-09-19T15:38:50.247Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"statusSeverity": 10,
+"statusSeverityDescription": "Good Service",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": []
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Night",
+"uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "victoria",
+"name": "Victoria",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.26Z",
+"modified": "2018-09-19T15:38:50.26Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"statusSeverity": 10,
+"statusSeverityDescription": "Good Service",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": []
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Night",
+"uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+},
+{
+"$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+"id": "waterloo-city",
+"name": "Waterloo & City",
+"modeName": "tube",
+"disruptions": [],
+"created": "2018-09-19T15:38:50.257Z",
+"modified": "2018-09-19T15:38:50.257Z",
+"lineStatuses": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+"id": 0,
+"lineId": "waterloo-city",
+"statusSeverity": 20,
+"statusSeverityDescription": "Service Closed",
+"reason": "Waterloo and City Line: Train service resumes at 06:00 on Monday morning. ",
+"created": "0001-01-01T00:00:00",
+"validityPeriods": [
+{
+"$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+"fromDate": "2018-09-30T00:25:55Z",
+"toDate": "2018-09-30T12:25:55Z",
+"isNow": true
+}
+],
+"disruption": {
+"$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+"category": "RealTime",
+"categoryDescription": "RealTime",
+"description": "Waterloo and City Line: Train service resumes at 06:00 on Monday morning. ",
+"affectedRoutes": [],
+"affectedStops": [],
+"closureText": "serviceClosed"
+}
+}
+],
+"routeSections": [],
+"serviceTypes": [
+{
+"$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+"name": "Regular",
+"uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+}
+],
+"crowding": {
+"$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+}
+}
+]
